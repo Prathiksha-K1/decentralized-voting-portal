@@ -97,24 +97,6 @@ Traditional voting systems rely on centralized databases, manual verification, a
 
 ---
 
-## 📂 Project Structure
-
-src/
-├── assets/
-│ └── dvs-landingpage.png
-├── pages/
-│ ├── Home.jsx
-│ ├── Login.jsx
-│ ├── Language.jsx
-│ ├── Voice.jsx
-│ ├── Vote.jsx
-│ └── Success.jsx
-├── App.jsx
-└── main.jsx
-
-
----
-
 ## 🎯 Use Cases
 
 - 🏫 College & University Elections  

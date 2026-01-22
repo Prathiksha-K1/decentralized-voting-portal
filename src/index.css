@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* Indian Flag Gradient Background */
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #ff9933 0%,
+    #ffb366 22%,
+    #ffffff 50%,
+    #c8f7dc 78%,
+    #138808 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+/* Main Card */
+.gov-card {
+  background: rgba(255, 255, 255, 0.97);
+  border-radius: 22px;
+  padding: 48px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* Title */
+.gov-title {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #1f2937;
+}
+
+/* Subtitle */
+.gov-subtitle {
+  font-size: 18px;
+  font-style: italic;
+  color: #374151;
+  margin-top: 10px;
+}
+
+/* Feature Cards */
+.feature {
+  border-radius: 16px;
+  padding: 20px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.feature.orange {
+  background: #fff1e6;
+}
+
+.feature.green {
+  background: #e8f8f0;
+}
+
+.feature.blue {
+  background: #eef5ff;
+}
+
+.feature.yellow {
+  background: #fff8dc;
+}
+
+/* Button */
+.gov-btn {
+  background: linear-gradient(to right, #ff9933, #138808);
+  color: white;
+  padding: 16px 40px;
+  border-radius: 18px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 28px;
+  transition: all 0.3s ease;
+}
+
+.gov-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Language buttons */
+.lang-btn {
+  border: 2px solid #d1d5db;
+  padding: 12px 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background: #ffffff;
+}
+
+.lang-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Selected language glow */
+.lang-selected {
+  border-color: #138808;
+  background: linear-gradient(to right, #ffedd5, #dcfce7);
+  box-shadow: 0 0 18px rgba(19, 136, 8, 0.5);
+}
+
+/* Disabled button */
+.btn-disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.feature-box {
+  padding: 28px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.feature-box h3 {
+  font-weight: 700;
+  margin: 16px 0 8px;
+  font-size: 18px;
+}
+
+.feature-box p {
+  font-size: 14px;
+  color: #444;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}

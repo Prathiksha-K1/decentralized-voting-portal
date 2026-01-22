@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="./src/assets/dvs-landingpage.png" alt="Secure Digital Voting Portal - Government of India" width="100%">
-</p>
 
 # 🗳️ DVS – Decentralized Voting System
 
